@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Todo</title>
+    <link rel="stylesheet" href="output.css">
+    
+</head>
+<body class="bg-black">
+   
+    <div class="flex justify-center mt-10">
+        <div class=" h-screen">
+            <h1 class=" text-white text-5xl"> Daily Todo</h1>
+            
+            <div class="flex justify-around gap-2 mt-5">
+                <div class="relative">
+                    <input id="input" type="text" class=" focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-opacity-50 text-black placeholder-gray-300 py-2 px-4 rounded-md shadow-md hover:shadow-lg transition duration-300 ease-in-out">
+                    <span class="absolute inset-y-0 right-0 flex items-center pr-3">
+                      <!-- You can add an icon or any other element here -->
+                    </span>
+                  </div>
+                  
+                <button id="button" class="bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold py-2 px-4 rounded-md shadow-md hover:shadow-lg transition duration-300 ease-in-out">
+                    Enter
+                  </button>
+                  
+            </div>
+
+            <div class="mt-10">
+                <ul class="list-disc  text-white text-3xl py-2 px-4 rounded-md shadow-md hover:shadow-lg transition duration-300 ease-in-out">
+                    <li class="py-1 list-none"></li>
+                    
+                  </ul>
+            </div>
+        </div>
+
+        
+    </div>  
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
